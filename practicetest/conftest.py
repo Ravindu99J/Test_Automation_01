@@ -75,4 +75,4 @@ def _capture_screenshot(file_name):
         driver.get_screenshot_as_file(file_name)
     except Exception as e:
         print("Screenshot capture failed:", e)
-#test12
+#test123

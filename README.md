@@ -63,6 +63,7 @@ pytest -n 2 --browser_name chrome --html=reports/report.html
 <img width="1340" height="728" alt="Screenshot 2025-10-08 150055" src="https://github.com/user-attachments/assets/24d290a8-4059-4e42-be3a-27867ef212c6" />
 
 ### 3.Enable GitHub Webhook Trigger
+   Note on Webhook Trigger: If Jenkins runs on localhost or a private network, it must be exposed to the public internet ( using ngrok ) for the GitHub webhook to function.
 
 <img width="1010" height="368" alt="Screenshot 2025-10-08 150126" src="https://github.com/user-attachments/assets/216db167-cd8c-47d2-8af3-e8711cf6b539" />
 
@@ -82,6 +83,8 @@ pytest -n 2 --browser_name chrome --html=reports/report.html
 <img width="1302" height="622" alt="Screenshot 2025-10-08 153358" src="https://github.com/user-attachments/assets/d291b2a8-7d2f-44fe-b00d-2e8a13d9a4a1" />
 
 ## Html report 
+<img width="840" height="724" alt="Screenshot 2025-10-08 154318" src="https://github.com/user-attachments/assets/2ef7a3f0-715f-44b4-9e30-2e1c7213a814" />
 
-[Uploading report.html…]()
+
+<img width="1891" height="533" alt="Screenshot 2025-10-08 155712" src="https://github.com/user-attachments/assets/c5f4e91f-8a57-4bc0-a5e9-c8e22b2f09c2" />
 

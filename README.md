@@ -1,4 +1,4 @@
-# Advanced QA Automation Framework: E-Commerce End-to-End Testing
+# QA Automation Framework: E-Commerce End-to-End Testing
 
 This repository contains a robust, scalable Test Automation Framework built on **Python** and **PyTest**. It is engineered to validate critical end-to-end (E2E) workflows of a simulated e-commerce application, demonstrating practical skills in framework development, CI/CD integration, and advanced reporting.
 
@@ -55,3 +55,36 @@ Execute the complete test suite using 2 parallel processes on the Chrome browser
 cd pytestpractice
 pytest -n 2 --browser_name chrome --html=reports/report.html
 ```
+
+## CI/CD Pipeline Setup (Jenkins Integration)
+
+### 1.Create a New Jenkins job
+### 2.Source Code Management(Configure Git Repository)  
+<img width="1340" height="728" alt="Screenshot 2025-10-08 150055" src="https://github.com/user-attachments/assets/24d290a8-4059-4e42-be3a-27867ef212c6" />
+
+### 3.Enable GitHub Webhook Trigger
+   Note on Webhook Trigger: If Jenkins runs on localhost or a private network, it must be exposed to the public internet ( using ngrok ) for the GitHub webhook to function.
+
+<img width="1010" height="368" alt="Screenshot 2025-10-08 150126" src="https://github.com/user-attachments/assets/216db167-cd8c-47d2-8af3-e8711cf6b539" />
+
+### 4.Define Build Steps (Make Build)
+
+<img width="1302" height="456" alt="Screenshot 2025-10-08 150140" src="https://github.com/user-attachments/assets/205b966a-ef2c-4cd2-8c8d-6b1fdc12d6d2" />
+
+### 5.Configure Parameters
+
+<img width="843" height="737" alt="Screenshot 2025-10-08 150035" src="https://github.com/user-attachments/assets/eff89944-2240-4468-b6cf-55681ef17541" />
+
+### 6.Publish HTML Report
+
+<img width="1323" height="751" alt="Screenshot 2025-10-08 150157" src="https://github.com/user-attachments/assets/356c13a4-4a6b-4d2a-ac5e-a5dcc9b988f1" />
+
+## Build status
+<img width="1302" height="622" alt="Screenshot 2025-10-08 153358" src="https://github.com/user-attachments/assets/d291b2a8-7d2f-44fe-b00d-2e8a13d9a4a1" />
+
+## Html report 
+<img width="840" height="724" alt="Screenshot 2025-10-08 154318" src="https://github.com/user-attachments/assets/2ef7a3f0-715f-44b4-9e30-2e1c7213a814" />
+
+
+<img width="1891" height="533" alt="Screenshot 2025-10-08 155712" src="https://github.com/user-attachments/assets/c5f4e91f-8a57-4bc0-a5e9-c8e22b2f09c2" />
+

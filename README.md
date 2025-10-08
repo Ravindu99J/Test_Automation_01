@@ -1,4 +1,4 @@
-# Advanced QA Automation Framework: E-Commerce End-to-End Testing
+# QA Automation Framework: E-Commerce End-to-End Testing
 
 This repository contains a robust, scalable Test Automation Framework built on **Python** and **PyTest**. It is engineered to validate critical end-to-end (E2E) workflows of a simulated e-commerce application, demonstrating practical skills in framework development, CI/CD integration, and advanced reporting.
 
